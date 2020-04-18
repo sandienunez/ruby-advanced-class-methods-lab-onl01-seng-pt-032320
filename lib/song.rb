@@ -13,7 +13,7 @@ end
 #instantiates a song with a name property
 #takes in the string name of a song 
 #returns a song instance with that name set as its name property 
-def self.new_by_name(name)
+def self.new_by_name(song_name)
   song = Song.new
   song.name = name
   song 
